@@ -49,7 +49,7 @@ export default function WhyChooseUs() {
           {reasons.map((reason) => (
             <Card
               key={reason.id}
-              className="text-center h-full hover:shadow-blue-500/30"
+              className="text-center h-full hover:shadow-red-500/30"
               hover
             >
               <div className="text-4xl mb-4">{reason.icon}</div>

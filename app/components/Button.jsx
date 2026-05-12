@@ -10,8 +10,8 @@ export default function Button({
   const baseStyles = 'font-semibold rounded transition-all duration-300 cursor-pointer';
 
   const variants = {
-    primary: 'bg-blue-500 hover:bg-blue-600 text-white hover:shadow-lg hover:scale-105 active:scale-95',
-    secondary: 'border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white',
+    primary: 'bg-red-500 hover:bg-red-600 text-white hover:shadow-lg hover:scale-105 active:scale-95',
+    secondary: 'border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white',
     ghost: 'text-white hover:bg-gray-800',
   };
 

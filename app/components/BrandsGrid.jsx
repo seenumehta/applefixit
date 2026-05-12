@@ -29,9 +29,9 @@ export default function BrandsGrid() {
               className="
                 bg-gray-900 rounded-lg p-6
                 flex flex-col items-center justify-center
-                hover:bg-blue-600 hover:shadow-lg hover:shadow-blue-500/50
+                hover:bg-red-600 hover:shadow-lg hover:shadow-red-500/50
                 transition-all duration-300 cursor-pointer
-                border border-gray-800 hover:border-blue-500
+                border border-gray-800 hover:border-red-500
                 h-24
               "
             >

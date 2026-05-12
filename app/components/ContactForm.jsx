@@ -133,7 +133,7 @@ export default function ContactForm() {
               className={`w-full bg-gray-900 text-white px-4 py-3 rounded-lg border transition ${
                 errors.name
                   ? 'border-red-500 focus:border-red-600'
-                  : 'border-gray-700 focus:border-blue-500'
+                  : 'border-gray-700 focus:border-red-500'
               } focus:outline-none`}
             />
             {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
@@ -151,7 +151,7 @@ export default function ContactForm() {
               className={`w-full bg-gray-900 text-white px-4 py-3 rounded-lg border transition ${
                 errors.phone
                   ? 'border-red-500 focus:border-red-600'
-                  : 'border-gray-700 focus:border-blue-500'
+                  : 'border-gray-700 focus:border-red-500'
               } focus:outline-none`}
             />
             {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
@@ -167,7 +167,7 @@ export default function ContactForm() {
               className={`w-full bg-gray-900 text-white px-4 py-3 rounded-lg border transition ${
                 errors.device
                   ? 'border-red-500 focus:border-red-600'
-                  : 'border-gray-700 focus:border-blue-500'
+                  : 'border-gray-700 focus:border-red-500'
               } focus:outline-none`}
             >
               <option value="">Select a device...</option>
@@ -189,7 +189,7 @@ export default function ContactForm() {
               onChange={handleChange}
               placeholder="Describe the problem with your device (optional)"
               rows="4"
-              className="w-full bg-gray-900 text-white px-4 py-3 rounded-lg border border-gray-700 focus:border-blue-500 focus:outline-none transition resize-none"
+              className="w-full bg-gray-900 text-white px-4 py-3 rounded-lg border border-gray-700 focus:border-red-500 focus:outline-none transition resize-none"
             ></textarea>
           </div>
 
@@ -203,7 +203,7 @@ export default function ContactForm() {
               className={`w-full bg-gray-900 text-white px-4 py-3 rounded-lg border transition ${
                 errors.location
                   ? 'border-red-500 focus:border-red-600'
-                  : 'border-gray-700 focus:border-blue-500'
+                  : 'border-gray-700 focus:border-red-500'
               } focus:outline-none`}
             >
               <option value="">Select a location...</option>

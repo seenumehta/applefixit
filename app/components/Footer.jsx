@@ -20,10 +20,10 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
-              <li><a href="#services" className="hover:text-blue-400 transition">Screen Repair</a></li>
-              <li><a href="#services" className="hover:text-blue-400 transition">Battery Service</a></li>
-              <li><a href="#services" className="hover:text-blue-400 transition">Software Fix</a></li>
-              <li><a href="#services" className="hover:text-blue-400 transition">Accessories</a></li>
+              <li><a href="#services" className="hover:text-red-400 transition">Screen Repair</a></li>
+              <li><a href="#services" className="hover:text-red-400 transition">Battery Service</a></li>
+              <li><a href="#services" className="hover:text-red-400 transition">Software Fix</a></li>
+              <li><a href="#services" className="hover:text-red-400 transition">Accessories</a></li>
             </ul>
           </div>
 
@@ -31,10 +31,10 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
-              <li><a href="#why-us" className="hover:text-blue-400 transition">About Us</a></li>
-              <li><a href="#reviews" className="hover:text-blue-400 transition">Reviews</a></li>
-              <li><a href="#locations" className="hover:text-blue-400 transition">Locations</a></li>
-              <li><a href="#contact" className="hover:text-blue-400 transition">Contact</a></li>
+              <li><a href="#why-us" className="hover:text-red-400 transition">About Us</a></li>
+              <li><a href="#reviews" className="hover:text-red-400 transition">Reviews</a></li>
+              <li><a href="#locations" className="hover:text-red-400 transition">Locations</a></li>
+              <li><a href="#contact" className="hover:text-red-400 transition">Contact</a></li>
             </ul>
           </div>
 
@@ -46,7 +46,7 @@ export default function Footer() {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-blue-400 transition text-2xl"
+                className="text-gray-400 hover:text-red-400 transition text-2xl"
               >
                 📷
               </a>
@@ -54,7 +54,7 @@ export default function Footer() {
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-blue-400 transition text-2xl"
+                className="text-gray-400 hover:text-red-400 transition text-2xl"
               >
                 f
               </a>
@@ -62,7 +62,7 @@ export default function Footer() {
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-blue-400 transition text-2xl"
+                className="text-gray-400 hover:text-red-400 transition text-2xl"
               >
                 𝕏
               </a>
@@ -78,8 +78,8 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
             <p>&copy; {currentYear} AppleFixit. All rights reserved.</p>
             <div className="flex gap-6 mt-4 md:mt-0">
-              <a href="#" className="hover:text-blue-400 transition">Privacy Policy</a>
-              <a href="#" className="hover:text-blue-400 transition">Terms of Service</a>
+              <a href="#" className="hover:text-red-400 transition">Privacy Policy</a>
+              <a href="#" className="hover:text-red-400 transition">Terms of Service</a>
             </div>
           </div>
         </div>

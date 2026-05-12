@@ -84,7 +84,7 @@ export default function Reviews() {
               <div className="flex">
                 {reviews.map((review) => (
                   <div key={review.id} className="w-full flex-shrink-0">
-                    <Card className="text-center hover:shadow-blue-500/30 h-full">
+                    <Card className="text-center hover:shadow-red-500/30 h-full">
                       <StarRating rating={review.rating} />
                       <p className="text-lg text-white mt-4 mb-4 italic">&quot;{review.text}&quot;</p>
                       <p className="font-bold text-white mb-1">{review.name}</p>
@@ -99,13 +99,13 @@ export default function Reviews() {
           {/* Navigation buttons */}
           <button
             onClick={prev}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-16 bg-blue-500 hover:bg-blue-600 text-white p-3 rounded-full transition z-10"
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-16 bg-red-500 hover:bg-red-600 text-white p-3 rounded-full transition z-10"
           >
             ←
           </button>
           <button
             onClick={next}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-16 bg-blue-500 hover:bg-blue-600 text-white p-3 rounded-full transition z-10"
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-16 bg-red-500 hover:bg-red-600 text-white p-3 rounded-full transition z-10"
           >
             →
           </button>
@@ -120,7 +120,7 @@ export default function Reviews() {
                   setAutoPlay(false);
                 }}
                 className={`w-2 h-2 rounded-full transition ${
-                  index === current ? 'bg-blue-500' : 'bg-gray-600'
+                  index === current ? 'bg-red-500' : 'bg-gray-600'
                 }`}
               />
             ))}

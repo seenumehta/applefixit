@@ -38,12 +38,12 @@ export default function Locations() {
           {locations.map((location) => (
             <Card
               key={location.id}
-              className="overflow-hidden hover:shadow-blue-500/30"
+              className="overflow-hidden hover:shadow-red-500/30"
               hover={false}
             >
               {/* Rating Badge */}
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-3xl font-bold text-blue-500">★ {location.rating}</span>
+                <span className="text-3xl font-bold text-red-500">★ {location.rating}</span>
                 <span className="text-gray-400 text-sm">Google Rating</span>
               </div>
 
@@ -52,17 +52,17 @@ export default function Locations() {
 
               <div className="space-y-3 mb-6 text-gray-300">
                 <p className="flex items-start gap-2">
-                  <span className="text-blue-500 mt-1">📍</span>
+                  <span className="text-red-500 mt-1">📍</span>
                   <span>{location.address}</span>
                 </p>
                 <p className="flex items-center gap-2">
-                  <span className="text-blue-500">📞</span>
-                  <a href={`tel:${location.phone}`} className="hover:text-blue-400 transition">
+                  <span className="text-red-500">📞</span>
+                  <a href={`tel:${location.phone}`} className="hover:text-red-400 transition">
                     {location.phone}
                   </a>
                 </p>
                 <p className="flex items-center gap-2">
-                  <span className="text-blue-500">🕒</span>
+                  <span className="text-red-500">🕒</span>
                   <span>{location.hours}</span>
                 </p>
               </div>
