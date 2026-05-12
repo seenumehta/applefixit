@@ -241,7 +241,7 @@ export default function ContactForm() {
           </Button>
 
           <p className="text-gray-400 text-sm text-center">
-            We'll contact you within 2 hours during business hours.
+            We&apos;ll contact you within 2 hours during business hours.
           </p>
         </form>
       </div>

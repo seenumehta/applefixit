@@ -86,7 +86,7 @@ export default function Reviews() {
                   <div key={review.id} className="w-full flex-shrink-0">
                     <Card className="text-center hover:shadow-blue-500/30 h-full">
                       <StarRating rating={review.rating} />
-                      <p className="text-lg text-white mt-4 mb-4 italic">"{review.text}"</p>
+                      <p className="text-lg text-white mt-4 mb-4 italic">&quot;{review.text}&quot;</p>
                       <p className="font-bold text-white mb-1">{review.name}</p>
                       <p className="text-sm text-gray-400">{review.location}</p>
                     </Card>
