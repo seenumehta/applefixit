@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='80' font-size='80' fill='%23007AFF'>AF</text></svg>" />
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='80' font-size='80' fill='%23ef4444'>AF</text></svg>" />
       </head>
       <body style={{ backgroundColor: '#0a0a0a', color: '#ffffff', margin: 0, padding: 0 }} className="bg-black text-white">
         <Navbar />
