@@ -9,8 +9,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold text-white mb-2">
-              Apple<span className="text-blue-500">Fixit</span>
+            <h3 className="text-2xl font-bold text-gray-100 mb-2">
+              Apple<span className="text-gray-100">Fi</span><span className="text-red-500">x</span><span className="text-gray-100">it</span>
             </h3>
             <p className="text-gray-400 text-sm">Premium Mobile Repair & Accessories</p>
             <p className="text-gray-500 text-xs mt-4">Gurugram, India</p>

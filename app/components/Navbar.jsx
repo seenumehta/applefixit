@@ -20,8 +20,8 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="#" className="text-2xl font-bold text-white hover:text-blue-400 transition">
-              Apple<span className="text-blue-500">Fixit</span>
+            <a href="#" className="text-2xl font-bold text-gray-100 hover:text-gray-200 transition">
+              Apple<span className="text-gray-100">Fi</span><span className="text-red-500">x</span><span className="text-gray-100">it</span>
             </a>
           </div>
 
