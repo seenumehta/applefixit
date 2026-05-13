@@ -42,7 +42,7 @@ export default function Navbar() {
           <div className="hidden md:block">
             <Button
               onClick={() => {
-                document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
+                window.open('https://wa.me/919811112254?text=Hi%20AppleFixit%2C%20I%20want%20to%20book%20a%20repair', '_blank');
               }}
               variant="primary"
               size="sm"
@@ -82,7 +82,7 @@ export default function Navbar() {
             ))}
             <Button
               onClick={() => {
-                document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
+                window.open('https://wa.me/919811112254?text=Hi%20AppleFixit%2C%20I%20want%20to%20book%20a%20repair', '_blank');
                 setIsOpen(false);
               }}
               variant="primary"

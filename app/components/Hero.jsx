@@ -24,7 +24,7 @@ export default function Hero() {
             variant="primary"
             size="lg"
             onClick={() => {
-              document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
+              window.open('https://wa.me/919811112254?text=Hi%20AppleFixit%2C%20I%20want%20to%20book%20a%20repair', '_blank');
             }}
           >
             Book a Repair
