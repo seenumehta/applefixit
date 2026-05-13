@@ -3,14 +3,10 @@
 import SectionTitle from './SectionTitle';
 
 const brands = [
-  { id: 1, name: 'Apple', emoji: '🍎' },
-  { id: 2, name: 'Samsung', emoji: '📱' },
-  { id: 3, name: 'Xiaomi', emoji: '🔴' },
-  { id: 4, name: 'OnePlus', emoji: '⚡' },
-  { id: 5, name: 'Realme', emoji: '🚀' },
-  { id: 6, name: 'Vivo', emoji: '💙' },
-  { id: 7, name: 'Oppo', emoji: '🎯' },
-  { id: 8, name: 'Motorola', emoji: 'M' },
+  { id: 1, name: 'iPhone', emoji: '📱' },
+  { id: 2, name: 'iPad', emoji: '📲' },
+  { id: 3, name: 'MacBook', emoji: '💻' },
+  { id: 4, name: 'Apple Watch', emoji: '⌚' },
 ];
 
 export default function BrandsGrid() {
@@ -18,8 +14,8 @@ export default function BrandsGrid() {
     <section className="py-20 bg-black px-4">
       <div className="max-w-7xl mx-auto">
         <SectionTitle
-          title="Brands We Repair"
-          subtitle="We service all major smartphone brands with expertise and care."
+          title="Apple Products We Repair"
+          subtitle="Expert repair services for all Apple devices - iPhones, iPads, MacBooks, and Apple Watches."
         />
 
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">

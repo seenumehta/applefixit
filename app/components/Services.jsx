@@ -37,7 +37,7 @@ const services = [
   {
     id: 6,
     name: 'Accessories',
-    description: 'Premium chargers, cables, cases, and more from trusted brands.',
+    description: 'Genuine Apple chargers, cables, cases, and more for your devices.',
     icon: '🎧',
   },
 ];

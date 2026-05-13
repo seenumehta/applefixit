@@ -13,7 +13,7 @@ const reasons = [
   {
     id: 2,
     title: 'Same-Day Repair',
-    description: 'Most repairs completed in 24 hours or less. Quick turnaround guaranteed.',
+    description: 'Most repairs completed in 1 hour or less. Lightning-fast turnaround guaranteed.',
     icon: '⚡',
   },
   {
