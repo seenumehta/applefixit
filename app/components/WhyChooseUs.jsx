@@ -30,9 +30,9 @@ const reasons = [
   },
   {
     id: 5,
-    title: 'All Brands Supported',
-    description: 'Apple, Samsung, OnePlus, Xiaomi, Realme, Vivo, Oppo & more.',
-    icon: '🌍',
+    title: 'Apple Specialist',
+    description: 'Dedicated to iPhone, iPad, MacBook, and Apple Watch repairs with certified expertise.',
+    icon: '🍎',
   },
 ];
 

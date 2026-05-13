@@ -5,7 +5,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'AppleFixit - Premium Mobile Repair & Accessories in Gurugram',
-  description: 'Expert mobile phone repair service for all brands. Screen replacement, battery service, water damage repair & more. Transparent pricing, same-day repairs.',
+  description: 'Expert Apple device repair service. iPhone, iPad, MacBook & Apple Watch repairs in Gurugram. Transparent pricing, 1-hour service.',
   keywords: 'mobile repair, phone repair, screen replacement, battery service, Gurugram, Apple, iPhone, Samsung',
   authors: [{ name: 'AppleFixit' }],
   openGraph: {
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://applefixit.in',
     title: 'AppleFixit - Premium Mobile Repair & Accessories',
-    description: 'Expert mobile phone repair service in Gurugram with transparent pricing and same-day repairs.',
+    description: 'Expert Apple device repair service in Gurugram with transparent pricing and fast service.',
   },
 };
 
